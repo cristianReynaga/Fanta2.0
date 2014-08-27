@@ -586,6 +586,10 @@ bool testApp::continueLoop( )
     {
       //  continueStatus=bStartInteraction;
      continueStatus = FFTanalyzer.averages[freqFirstAnalysis] > umbralSonido;
+        
+        bLed1=true;
+        bLed2=true;
+        bLed3=true;
     }
     if (currentMovie == ESCENA_CORAZONES)
     {
